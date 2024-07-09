@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://campusceaec.org/wp-content/uploads/2021/09/natureza_bioenergia-1024x683.png");
+    min-height: 100vh;
+
+}
+
+.org-center {
+    background: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgb(89, 104, 107);
+    color: #ffff;
+    width: calc(100% - 100px);
+    
+
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(89, 104, 107);
+    cursor: pointer;
+    float: right;
+
+}
+
+.img-busca{
+    width: 20px;
+
+}
+
+.box-medium {
+    margin-top: 30px;
+}
+
+.city-search {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.box-mini {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.text-prevision{
+    color: #ffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+
+}
+
+.umidade{
+    color: #ffff;
+    margin-top: 20px;
+
+}
+
+.sky{
+    width: 40;
+    right: 40;
+}
